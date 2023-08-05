@@ -1,0 +1,2 @@
+logo.png: https://pixabay.com/vectors/chefs-hat-chef-clothing-uniform-23436/
+gears.png: https://pixabay.com/vectors/gear-gears-cogwheels-1294844/
