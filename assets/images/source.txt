@@ -1,2 +1,9 @@
-logo.png: https://pixabay.com/vectors/chefs-hat-chef-clothing-uniform-23436/
 gears.png: https://pixabay.com/vectors/gear-gears-cogwheels-1294844/
+hamburger: https://pixabay.com/photos/hamburger-snack-burger-gourmet-494706/
+hotwing: https://pixabay.com/photos/chicken-food-lunch-meal-dish-2451482/
+lasagna: https://pixabay.com/photos/lasagna-cheese-tomatoes-noodles-1900529/
+logo.png: https://pixabay.com/vectors/chefs-hat-chef-clothing-uniform-23436/
+pasta: https://pixabay.com/photos/pasta-italian-cuisine-dish-3547078/
+pizza: https://pixabay.com/photos/plate-pizza-dish-meal-italian-2802332/
+ramen: https://pixabay.com/photos/food-japanese-asian-bowl-dish-eat-715542/
+steak: https://pixabay.com/photos/asparagus-steak-veal-steak-veal-2169305/
