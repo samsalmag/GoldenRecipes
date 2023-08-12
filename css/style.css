@@ -471,11 +471,11 @@ nav li a {
     justify-content: center;
     text-align: center;
     font-family: teko-medium;
-    
 }
 
 nav #selected-page {
     background-color: var(--secondary-gold);
+    font-weight: bold;
 }
 
 /* ============================ INDEX.HTML ============================ */
@@ -519,6 +519,7 @@ main .firstpage-read-more-links a {
     color: black;
     text-decoration: none;
     font-family: zilla-medium;
+    font-size: min(20px, 1.8vw);
 }
 main .firstpage-read-more-links a:hover {
    text-decoration: underline;
@@ -556,3 +557,68 @@ main td:first-child {
 }
 /* ==================================== */
 
+/* ============================ OUR-RECIPES.HTML ============================ */
+#our-recipes {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 200px;
+}
+
+#our-recipes #search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#our-recipes #search-bar #search-input {
+    font-family: zilla-medium;
+    width: 250px;
+    height: 33px;
+    border-radius: 3px;
+    border-color: black;
+    font-size: min(20px, 2.4vw);
+}
+
+#our-recipes #search-bar #search-input:focus {
+    outline: none !important;
+    border: 2px solid var(--primary-gold);
+}
+
+#our-recipes #search-bar #search-button,
+#our-recipes #search-bar #search-clear {
+    width: 80px;
+    height: 40px;
+    border: 2px solid var(--primary-gold);
+    border-radius: 3px;
+    margin-left: 10px;
+    font-family: teko-medium;
+    font-size: min(25px, 2.6vw);
+    background-color: white;
+    line-height: inherit;
+    transition: background-color 0.3s ease
+}
+
+#our-recipes #search-bar #search-button:hover,
+#our-recipes #search-bar #search-clear:hover {
+    background-color: var(--secondary-gold);
+    cursor: pointer;
+}
+
+#our-recipes #meal-title {
+    margin: 0;
+    font-family: zilla-medium;
+}
+
+#our-recipes #meal-img {
+    width: min(40vw, 500px);
+    border: 3px solid var(--primary-gold);
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#our-recipes #meal-instructions {
+    margin-bottom: 30px;
+}

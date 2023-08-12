@@ -5,7 +5,7 @@
     <meta charset="UTF-8" name="viewport" content="width = device-width, initial-scale = 1, maximum-scale = 2">
     <title>Golden Recipes</title>   
     <link rel="stylesheet" href="../css/style.css"> 
-    <script src="js/index.js" type="module"></script>
+    <script src="../js/our-recipes.js" type="module"></script>
 </head>
 
 <body>
@@ -23,8 +23,14 @@
         </nav>
     </header>
 
-    <main>
-       
+    <main id="our-recipes">
+        <div id="search-bar">
+            <input id="search-input" type="text" placeholder="Search a recipe...">
+            <button id="search-button" type="button">Search</button>
+            <button id="search-clear" type="button">Clear</button>
+        </div>
+
+        <div id="result"></div>
     </main>
 
     <footer>
