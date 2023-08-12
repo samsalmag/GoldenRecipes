@@ -14,21 +14,21 @@
         <h1>Golden Recipes</h1>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Our recipes</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Contact <br>&<br> Newsletter</a></li>
+                <li id="selected-page"><a href="index.html">Home</a></li>
+                <li><a href="html/our-recipes.html">Our recipes</a></li>
+                <li><a href="html/gallery.html">Gallery</a></li>
+                <li><a href="html/about-us.html">About us</a></li>
+                <li><a href="html/contact-newsletter.html">Contact <br>&<br> Newsletter</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="left">
-            <div class="intro">
-                <h3>Your ultimate culinary haven</h3>
+            <div id="intro">
+                <h1>Your ultimate culinary haven</h3>
                 <p>
-                    Welcome to "Golden Recipes" -  your one-stop destination for delicious and convenient meals that you can prepare right in the comfort of your own kitchen!
+                    Welcome to Golden Recipes - your one-stop destination for delicious and convenient meals that you can prepare right in the comfort of your own kitchen!
                     Whether you're a seasoned chef or a complete novice in the kitchen, we got you covered.
                     Our mission is to unlock the world of delectable dishes and make cooking an enjoyable experience for everyone.
                     <br><br>
@@ -48,14 +48,34 @@
                     Are you ready to embark on a flavorful expedition? Explore Golden Recipes today and embark on a culinary adventure that will leave you with many delightful dishes to savor for years to come. 
                     Happy cooking!
                 </p>
+
+                <h2 class="firstpage-read-more-links"><a href="html/about-us.html">Read more about us ></a></h2>
             </div>
+            
+            <h1>Popular dishes</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="assets/images/hamburger.jpg">
+                        <h2><a href="html/gallery.html">Hamburger ></a></h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/pasta.jpg">
+                        <h2><a href="html/gallery.html">Pasta ></a></h2>
+                    </td>
+                </tr>
+            </table>
+
+            <h2 class="firstpage-read-more-links"><a href="html/gallery.html">Discover more dishes ></a></h2>
         </div>
 
         <div class="right">
-            <h1>Today's meal</h1>
-            <h2 id="meal-title">Meal title</h2>
+            <h1>Recommended meal</h1>
+            <h2 id="meal-title">Loading meal...</h2>
             <img id="meal-img" src="assets/images/gears.png" alt="Two gears. Loading meal image.">
-            <p>Instructions</p>
+            <p id="meal-instructions">Loading instructions...</p>
+
+            <h2 class="firstpage-read-more-links"><a href="html/our-recipes.html">Find more recipes ></a></h2>
         </div>
 
         
