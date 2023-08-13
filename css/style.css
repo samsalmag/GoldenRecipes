@@ -521,6 +521,7 @@ nav #selected-page {
     font-family: zilla-medium;
     font-size: min(20px, 1.8vw);
 }
+
 #index .firstpage-read-more-links a:hover {
    text-decoration: underline;
 }
@@ -682,4 +683,38 @@ nav #selected-page {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 15px 15px 20px black;
+}
+
+/* ============================ ABOUT-US.HTML ============================ */
+#about-us {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-us h1 {
+  font-family: teko-medium;
+  margin-bottom: 10px;
+}
+
+#about-us #summary {
+  margin: 0 5% 30px 10px;
+}
+
+#about-us #history {
+  margin: 0 10px 30px 5%;
+}
+
+#about-us #summary p {
+  margin-bottom: 50px;
+}
+
+#about-us .text-link a {
+  color: black;
+  text-decoration: none;
+  font-family: zilla-medium;
+  font-size: min(20px, 2vw);
+}
+
+#about-us .text-link a:hover {
+ text-decoration: underline;
 }
