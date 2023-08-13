@@ -607,6 +607,12 @@ nav #selected-page {
     cursor: pointer;
 }
 
+#our-recipes h1 {
+    font-family: teko-light;
+    font-size: min(40px, 3vw);
+    margin-bottom: 10px;
+}
+
 #our-recipes #meal-title {
     margin: 0;
     font-family: zilla-medium;
