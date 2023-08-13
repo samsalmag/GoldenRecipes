@@ -382,6 +382,12 @@ main {
     flex-direction: row;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     font-family: zilla-medium;
     margin: 0;
@@ -418,6 +424,7 @@ footer {
     flex-direction: row;
     align-items: center;
     background: linear-gradient(to top, var(--primary-gold) 0%, var(--secondary-gold) 70%);
+    margin-top: auto;
 }
 /* ============================ NAV ============================ */
 nav {
@@ -721,3 +728,69 @@ nav #selected-page {
 
 /* ============================ CONTACT-NEWSLETTER.HTML ============================ */
 
+#contact-newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contact-newsletter h1 {
+  font-family: teko-medium;
+  text-align: center;
+}
+
+#contact-newsletter a {
+  width: fit-content;
+  font-family: zilla-medium;
+  text-decoration: none;
+  color: black;
+}
+
+#contact-newsletter a:hover {
+  text-decoration: underline;
+}
+
+#contact-newsletter #socials-list {
+  list-style-type: none;
+}
+
+#contact-newsletter #email-div {
+  margin-right: 10%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+#contact-newsletter #email-div a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#contact-newsletter #socials-div {
+  margin-right: 10%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+#contact-newsletter .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#contact-newsletter #socials-list li {
+  margin-bottom: 10px;
+}
+
+#contact-newsletter #socials-list a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contact-newsletter #newsletter-div {
+  flex: 1;
+  margin-bottom: 30px;
+}
