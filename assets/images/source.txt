@@ -1,6 +1,9 @@
+email-logo: https://pixabay.com/vectors/icon-icons-button-buttons-theme-354016/
+facebook-logo: https://pixabay.com/illustrations/facebook-logo-social-network-770688/
 gears.png: https://pixabay.com/vectors/gear-gears-cogwheels-1294844/
 hamburger: https://pixabay.com/photos/hamburger-snack-burger-gourmet-494706/
 hotwing: https://pixabay.com/photos/chicken-food-lunch-meal-dish-2451482/
+instagram-logo: https://pixabay.com/vectors/instagram-application-collection-1675670/
 lasagna: https://pixabay.com/photos/lasagna-cheese-tomatoes-noodles-1900529/
 logo.png: https://pixabay.com/vectors/chefs-hat-chef-clothing-uniform-23436/
 pasta: https://pixabay.com/photos/pasta-italian-cuisine-dish-3547078/
@@ -10,4 +13,5 @@ plum-cake: https://pixabay.com/photos/plum-cake-plums-streusel-cake-cakes-364184
 ramen: https://pixabay.com/photos/food-japanese-asian-bowl-dish-eat-715542/
 schnitzel: https://pixabay.com/photos/schnipo-schnitzel-with-fries-1837703/
 steak: https://pixabay.com/photos/asparagus-steak-veal-steak-veal-2169305/
+twitter-logo: https://pixabay.com/vectors/twitter-pin-button-icon-icons-i-667462/
 vegetable-skewer: https://pixabay.com/photos/vegetable-skewer-paprika-tomato-3317060/
