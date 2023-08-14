@@ -413,7 +413,7 @@ header h1 {
     width: fit-content;
     flex: 1;
     font-family: zilla-medium;
-    font-size: min(45px, 3vw);
+    font-size: min(40px, 4.5vw);
 }
 
 footer {
@@ -472,7 +472,7 @@ nav li a {
     height: 100%;
     text-decoration: none;
     color: #000;
-    font-size: min(2.4vw, 28px);
+    font-size: min(3vw, 28px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -488,7 +488,7 @@ nav #selected-page {
 /* ============================ INDEX.HTML ============================ */
 #index .left,
 #index .right {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #index .left {
@@ -502,31 +502,37 @@ nav #selected-page {
 
 #index h1 {
     font-family: teko-light;
-    font-size: min(40px, 3vw);
+    font-size: min(40px, 3.5vw);
     margin-bottom: 10px;
 }
 
 #index #intro {
-    margin-bottom: 50px;
+    margin-bottom: 5vw;
 }
 
 #index .right #meal-title {
     margin: 0;
     font-family: zilla-medium;
+    font-size: min(24px, 2.5vw);
 }
 
 #index .right #meal-img {
-    width: min(40vw, 500px);
+    width: min(35vw, 450px);
     border: 3px solid var(--primary-gold);
     border-radius: 5px;
     margin: 10px 0 10px 0;
+}
+
+#index .firstpage-read-more-links {
+    margin: 0;
+    margin-top: 1vw;
 }
 
 #index .firstpage-read-more-links a {
     color: black;
     text-decoration: none;
     font-family: zilla-medium;
-    font-size: min(20px, 1.8vw);
+    font-size: min(20px, 2.4vw);
 }
 
 #index .firstpage-read-more-links a:hover {
@@ -545,7 +551,7 @@ nav #selected-page {
 #index td h2 {
     margin: 0 0 0 5px;
     text-align: left;
-    font-size: min(20px, 1.8vw);
+    font-size: min(20px, 2vw);
     font-family: zilla-medium;
     color: black;
     text-decoration: none;
@@ -617,7 +623,7 @@ nav #selected-page {
 
 #our-recipes h1 {
     font-family: teko-light;
-    font-size: min(40px, 3vw);
+    font-size: min(40px, 8vw);
     margin-bottom: 10px;
 }
 
@@ -647,7 +653,7 @@ nav #selected-page {
 #gallery h1 {
     font-family: teko-medium;
     text-align: center;
-    font-size: min(40px, 3vw);
+    font-size: min(40px, 4vw);
 }
 
 #gallery #table-container {
@@ -703,6 +709,11 @@ nav #selected-page {
   margin-bottom: 10px;
 }
 
+#about-us h2 {
+    margin: 0;
+    margin-bottom: 0.5vw;
+}
+
 #about-us #summary {
   margin: 0 5% 30px 10px;
 }
@@ -712,14 +723,14 @@ nav #selected-page {
 }
 
 #about-us #summary p {
-  margin-bottom: 50px;
+  margin-bottom: 1vw;
 }
 
 #about-us .text-link a {
   color: black;
   text-decoration: none;
   font-family: zilla-medium;
-  font-size: min(20px, 2vw);
+  font-size: min(20px, 2.3vw);
 }
 
 #about-us .text-link a:hover {
@@ -727,7 +738,6 @@ nav #selected-page {
 }
 
 /* ============================ CONTACT-NEWSLETTER.HTML ============================ */
-
 #contact-newsletter {
   display: flex;
   flex-direction: row;
@@ -737,6 +747,11 @@ nav #selected-page {
 #contact-newsletter h1 {
   font-family: teko-medium;
   text-align: center;
+  font-size: min(33px, 3.5vw);
+}
+
+#contact-newsletter h2 {
+    font-size: min(17px, 2.3vw);
 }
 
 #contact-newsletter a {
@@ -750,34 +765,52 @@ nav #selected-page {
   text-decoration: underline;
 }
 
-#contact-newsletter #socials-list {
-  list-style-type: none;
+#contact-newsletter .logo {
+    width: min(50px, 6vw);
+    height: min(50px, 6vw);
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid var(--primary-gold);
 }
 
+/* =============== EMAIL =============== */
 #contact-newsletter #email-div {
   margin-right: 10%;
   flex: 1;
   margin-bottom: 30px;
+  min-width: 0;
 }
 
 #contact-newsletter #email-div a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 15px;
+    display: flex;
+    margin-top: 15px;
 }
 
+@media(min-width: 921px) {
+    #contact-newsletter #email-div a {
+        flex-direction: row;
+        align-items: center;
+    } 
+}
+
+@media(max-width: 920px) {
+    #contact-newsletter #email-div a {
+        flex-direction: column;
+        align-items: left;
+    } 
+}
+
+/* =============== SOCIALS =============== */
 #contact-newsletter #socials-div {
   margin-right: 10%;
   flex: 1;
   margin-bottom: 30px;
+  min-width: 0;
 }
 
-#contact-newsletter .logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  margin-right: 10px;
+#contact-newsletter #socials-list {
+    list-style-type: none;
+    margin-left: -2.5vw;
 }
 
 #contact-newsletter #socials-list li {
@@ -790,7 +823,68 @@ nav #selected-page {
   align-items: center;
 }
 
+/* =============== NEWSLETTER =============== */
 #contact-newsletter #newsletter-div {
   flex: 1;
   margin-bottom: 30px;
+  min-width: 0;
+}
+
+#contact-newsletter #newsletter-div h2 {
+    font-family: zilla-medium;
+}
+
+#contact-newsletter #newsletter-div ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: -2.5vw;
+}
+
+#contact-newsletter #newsletter-div label {
+    font-family: zilla-medium;
+    width: min(18px, 2vw);
+}
+
+#contact-newsletter #newsletter-div ul:nth-child(1) label {
+    font-size: min(22px, 2.5vw);
+}
+
+#contact-newsletter #newsletter-div ul:nth-child(2) li {
+    margin-bottom: 10px;
+    font-size: min(18px, 2.5vw);
+}
+
+#contact-newsletter #newsletter-div #form-name,
+#contact-newsletter #newsletter-div #form-email {
+    font-family: zilla-medium;
+    width: min(350px, 17vw);
+    height: 30px;
+    border-radius: 3px;
+    border-color: black;
+    font-size: min(20px, 2.4vw);
+    margin-bottom: 10px;
+}
+
+#contact-newsletter #newsletter-div #form-name:focus,
+#contact-newsletter #newsletter-div #form-email:focus {
+    outline: none !important;
+    border: 2px solid var(--primary-gold);
+}
+
+#contact-newsletter #newsletter-div #subscribe-button {
+    width: min(125px, 16vw);
+    height: 40px;
+    border: 2px solid var(--primary-gold);
+    border-radius: 3px;
+    margin-top: 10px;
+    font-family: teko-medium;
+    font-size: min(25px, 3vw);
+    background-color: white;
+    line-height: inherit;
+    transition: background-color 0.3s ease
+}
+
+#contact-newsletter #newsletter-div #subscribe-button:hover {
+    background-color: var(--secondary-gold);
+    cursor: pointer;
 }
