@@ -1,6 +1,6 @@
 import { getRandomMeal } from './api.js';
 
-// Get a random meal from the API
+// Get a random meal from the API and work with the returned data...
 getRandomMeal().then(data => {
    // SET MEAL TITLE
    const mealTitle = document.getElementById('meal-title');

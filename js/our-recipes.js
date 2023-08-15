@@ -27,12 +27,12 @@ document.getElementById('search-clear').addEventListener('click', function() {
 
 // Performs a search with the API to retrieve recipes
 function performSearch() {
-   // Do not perform a search in input is empty
+   // Do not perform a search if input is empty
    if (searchInput.value.trim() === null || searchInput.value.trim() === '') {
       return;
    }
 
-   // Search a meal in the API...
+   // Search a meal in the API and work with the returned data...
    searchMeal(searchInput.value.trim()).then(data => {
 
       // Remove previous results
@@ -47,14 +47,14 @@ function performSearch() {
       }
       resultHeader.textContent = 'Results'
 
-      // If less than 3 recipe results exist
-      const nFoundRecipes = Math.min(data.meals.length, maxResults);
-      const uniqueIndexes = getUniqueRandomIntegers(0, data.meals.length - 1, nFoundRecipes);  // Get unique indexes so duplicate recipes are avoided on each search
+      const nFoundRecipes = Math.min(data.meals.length, maxResults); // In case less than 3 recipes were returned
+      const uniqueIndexes = getUniqueRandomIntegers(0, data.meals.length - 1, nFoundRecipes);  // Get unique indexes so duplicate recipes are avoided on each search result
 
       // For each meal recipe found...
       for(let i = 0; i < nFoundRecipes; i++) {
          const meal = data.meals[uniqueIndexes[i]];
 
+         // Add all elements to the results div
          addMealTitle(meal);
          addMealImage(meal);
          addMealInstructions(meal);
@@ -62,7 +62,7 @@ function performSearch() {
    });
 }
 
-// ADD MEAL TITLE TO RESULTS
+// ADD MEAL TITLE TO RESULTS DIV
 function addMealTitle(meal) {
    const mealTitle = document.createElement('h2');
    mealTitle.id = 'meal-title';
@@ -70,7 +70,7 @@ function addMealTitle(meal) {
    resultDiv.appendChild(mealTitle);
 }
 
-// ADD MEAL IMAGE TO RESULTS
+// ADD MEAL IMAGE TO RESULTS DIV
 function addMealImage(meal) {
    const mealImage = document.createElement('img');
    mealImage.id = 'meal-img';
@@ -79,7 +79,7 @@ function addMealImage(meal) {
    resultDiv.appendChild(mealImage);
 }
 
-// ADD MEAL INSTRUCTIONS TO RESULTS
+// ADD MEAL INSTRUCTIONS TO RESULTS DIV
 function addMealInstructions(meal) {
    const mealInstructions = document.createElement('p');
    mealInstructions.id = 'meal-instructions';
