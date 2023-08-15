@@ -1,6 +1,5 @@
 email-logo: https://pixabay.com/vectors/icon-icons-button-buttons-theme-354016/
 facebook-logo: https://pixabay.com/illustrations/facebook-logo-social-network-770688/
-gears.png: https://pixabay.com/vectors/gear-gears-cogwheels-1294844/
 hamburger: https://pixabay.com/photos/hamburger-snack-burger-gourmet-494706/
 hotwing: https://pixabay.com/photos/chicken-food-lunch-meal-dish-2451482/
 instagram-logo: https://pixabay.com/vectors/instagram-application-collection-1675670/
