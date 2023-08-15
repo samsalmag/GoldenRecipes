@@ -1,8 +1,6 @@
 import { getRandomMeal } from './api.js';
 
 getRandomMeal().then(data => {
-   console.log(data);
-
    // MEAL TITLE
    const mealTitle = document.getElementById('meal-title');
    mealTitle.textContent = data.strMeal;
