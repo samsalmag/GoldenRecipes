@@ -323,6 +323,12 @@ footer .logo {
     margin-top: 25px;
 }
 
+#our-recipes #search-bar label {
+    font-family: zilla-medium;
+    font-size: min(19px, 2.4vw);
+    margin-right: 7px;
+}
+
 #our-recipes #search-bar #search-input {
     font-family: zilla-medium;
     width: 250px;
