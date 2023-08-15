@@ -14,3 +14,5 @@ schnitzel: https://pixabay.com/photos/schnipo-schnitzel-with-fries-1837703/
 steak: https://pixabay.com/photos/asparagus-steak-veal-steak-veal-2169305/
 twitter-logo: https://pixabay.com/vectors/twitter-pin-button-icon-icons-i-667462/
 vegetable-skewer: https://pixabay.com/photos/vegetable-skewer-paprika-tomato-3317060/
+
+transparent: made by me in GIMP 2.10.14
