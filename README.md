@@ -2,9 +2,9 @@
 
 #### by Sam Salek 
 
-Golden Recipes is a website for anyone to either find recipes or inspiration for meals to cook. The site was created as the final project of the summer course ***Dynamiska webbapplikationer 2IS220 76008 VT2023***.
+Golden Recipes is a website for anyone to either find recipes or inspiration for meals to cook. The site was created as my final project for the summer course ***Dynamiska webbapplikationer 2IS220 76008 VT2023***.
 
-The site uses the [**TheMealDB**](https://www.themealdb.com/) API to gather and display recipes.
+The website uses the [**TheMealDB**](https://www.themealdb.com/) API to gather and display recipes.
 
 Golden Recipes is deployed and available at: https://sam-salek.github.io/GoldenRecipes/
 
