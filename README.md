@@ -6,7 +6,7 @@ Golden Recipes is a website for anyone to either find recipes or inspiration for
 
 The site uses the [**TheMealDB**](https://www.themealdb.com/) API to gather and display recipes.
 
-Website is available at: https://sam-salek.github.io/GoldenRecipes/
+Golden Recipes is deployed and available at: https://sam-salek.github.io/GoldenRecipes/
 
 
 #### Note:
